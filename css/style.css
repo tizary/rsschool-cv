@@ -44,5 +44,16 @@ a {
 }
 
 .cont {
-    font-style: italic;
+  font-style: italic;
+}
+.footer-main {
+  margin-top: 20px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-main a {
+  padding-top: 12px;
+  padding-left: 20px;
 }
