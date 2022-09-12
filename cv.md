@@ -25,17 +25,18 @@ To obtain a responsible and challenging Front End Developer's position. Having a
 **Code examples**
 
 ```
-<!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>hello</h1>
-  </body>
-</html>
+function unluckyDays(year){
+  let count = 0
+  for(let i = 0; i < 12; i++) {
+    let date = new Date(year, i, 13)
+    if (date.getDay() === 5) {
+      count++
+    }
+  }
+  console.log(count)
+}
+
+unluckyDays(1001)
 ```
 
 **Work Experience**
